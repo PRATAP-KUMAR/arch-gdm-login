@@ -7,7 +7,7 @@ log on to any tty and reinstall the package gnome-shell**_
 
 Required Package: glib2
 ```
-sudo dnf install glib2
+sudo pacman -S glib2
 ````
 
 this script is to change the login screen background of Arch Linux which uses GDM as login manager only.
