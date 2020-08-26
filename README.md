@@ -3,12 +3,7 @@
 _**If you tried to change the GDM background with someother scripts, you first need to reset those changes. Other scripts may have the option --reset.**_
 
 _**Recovery from fatal errors: If you encounter any problems after running this script..
-log on to any tty**_
-````
-sudo rm /usr/share/gnome-shell/gnome-shell-theme.gresource
-sudo dnf reinstall gnome-shell
-reboot
-````
+log on to any tty and reinstall the package gnome-shell**_
 
 Required Package: glib2
 ```
